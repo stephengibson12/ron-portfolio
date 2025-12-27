@@ -1,0 +1,33 @@
+# --- OS Metadata ---
+.DS_Store
+Thumbs.db
+
+# --- Development Tools ---
+.vscode/
+.idea/
+*.log
+
+# --- Python (Virtual Environments) ---
+# Blocks the environment folder regardless of name (.venv, venv, env)
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+
+# --- Node.js (Dependencies) ---
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# --- Environment Secrets ---
+# Never commit your API keys or database credentials
+.env
+.flaskenv
+
+# --- Build Outputs ---
+dist/
+build/
+out/
+
