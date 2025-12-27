@@ -1,0 +1,46 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#0a0a0f" />
+  <rect x="431" y="214" width="81" height="4" fill="#0f0" opacity="0.2829674256227136" />
+<rect x="588" y="243" width="49" height="3" fill="#0f0" opacity="0.14461569224778476" />
+<rect x="508" y="38" width="64" height="3" fill="#0f0" opacity="0.21084050916513836" />
+<rect x="759" y="303" width="46" height="3" fill="#0f0" opacity="0.4411305027048815" />
+<rect x="234" y="4" width="27" height="4" fill="#0f0" opacity="0.4681022322007739" />
+<rect x="168" y="325" width="48" height="4" fill="#0f0" opacity="0.41981769797398455" />
+<rect x="50" y="329" width="26" height="5" fill="#0f0" opacity="0.44612487950600654" />
+<rect x="543" y="2" width="36" height="4" fill="#0f0" opacity="0.33434364512834774" />
+<rect x="688" y="44" width="97" height="5" fill="#0f0" opacity="0.3196856249905144" />
+<rect x="610" y="379" width="92" height="5" fill="#0f0" opacity="0.3826816157970052" />
+<rect x="721" y="311" width="49" height="2" fill="#0f0" opacity="0.4831185256793621" />
+<rect x="393" y="52" width="87" height="5" fill="#0f0" opacity="0.027935035686205312" />
+<rect x="250" y="149" width="86" height="2" fill="#0f0" opacity="0.03332200735586577" />
+<rect x="0" y="199" width="32" height="2" fill="#0f0" opacity="0.46901856096759637" />
+<rect x="71" y="265" width="71" height="2" fill="#0f0" opacity="0.11690474094026881" />
+<rect x="415" y="35" width="68" height="5" fill="#0f0" opacity="0.30513092098960487" />
+<rect x="184" y="321" width="100" height="4" fill="#0f0" opacity="0.08650005213570644" />
+<rect x="2" y="174" width="69" height="3" fill="#0f0" opacity="0.10483912231608045" />
+<rect x="734" y="69" width="46" height="5" fill="#0f0" opacity="0.16366205008223206" />
+<rect x="267" y="155" width="39" height="3" fill="#0f0" opacity="0.47104431600044694" />
+<rect x="51" y="319" width="11" height="3" fill="#0f0" opacity="0.486027621091283" />
+<rect x="760" y="89" width="89" height="5" fill="#0f0" opacity="0.28349911876631817" />
+<rect x="361" y="393" width="61" height="5" fill="#0f0" opacity="0.3442027376875975" />
+<rect x="767" y="175" width="45" height="3" fill="#0f0" opacity="0.30894073478181633" />
+<rect x="761" y="305" width="22" height="3" fill="#0f0" opacity="0.48236805730707843" />
+<rect x="491" y="332" width="66" height="4" fill="#0f0" opacity="0.3099161941911484" />
+<rect x="128" y="334" width="87" height="4" fill="#0f0" opacity="0.13151562532188726" />
+<rect x="586" y="75" width="83" height="3" fill="#0f0" opacity="0.13049886078743023" />
+<rect x="71" y="264" width="33" height="4" fill="#0f0" opacity="0.4072259869087196" />
+<rect x="482" y="188" width="42" height="5" fill="#0f0" opacity="0.4329732088720408" />
+
+  <line x1="401" y1="310" x2="575" y2="151" stroke="#0f0" stroke-width="1" opacity="0.3" />
+<line x1="617" y1="382" x2="552" y2="69" stroke="#0f0" stroke-width="1" opacity="0.3" />
+<line x1="420" y1="396" x2="678" y2="32" stroke="#0f0" stroke-width="1" opacity="0.3" />
+<line x1="462" y1="82" x2="443" y2="213" stroke="#0f0" stroke-width="1" opacity="0.3" />
+<line x1="681" y1="42" x2="61" y2="256" stroke="#0f0" stroke-width="1" opacity="0.3" />
+<line x1="177" y1="393" x2="400" y2="256" stroke="#0f0" stroke-width="1" opacity="0.3" />
+<line x1="502" y1="145" x2="5" y2="328" stroke="#0f0" stroke-width="1" opacity="0.3" />
+<line x1="443" y1="102" x2="522" y2="173" stroke="#0f0" stroke-width="1" opacity="0.3" />
+<line x1="528" y1="393" x2="549" y2="372" stroke="#0f0" stroke-width="1" opacity="0.3" />
+<line x1="756" y1="143" x2="22" y2="196" stroke="#0f0" stroke-width="1" opacity="0.3" />
+
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="monospace" font-size="40" fill="#fff" font-weight="bold" style="text-shadow: 2px 2px #0f0;">NODEMCU CAR</text>
+</svg>
