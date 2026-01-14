@@ -95,7 +95,7 @@ export const siteData: SiteData = {
           description: "High-octane action platformer.",
           image: "/images/blood_blaze.png",
           action: "FIGHT",
-          links: {},
+          links: { demo: "https://app.rons.club/run/blood-blaze/" },
         },
         {
           id: "blur-blaze",
@@ -104,7 +104,7 @@ export const siteData: SiteData = {
           description: "Experimental racing game with motion blur aesthetics.",
           image: "/images/blur_blaze.png",
           action: "RACE",
-          links: {},
+          links: { demo: "https://blurblaze.vercel.app/" },
         },
       ],
     },
