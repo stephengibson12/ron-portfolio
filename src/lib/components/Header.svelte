@@ -99,7 +99,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    gap: 0.5rem;
+    gap: 0.15rem;
     list-style: none;
     margin: 0;
     padding: 0;
