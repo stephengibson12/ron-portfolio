@@ -52,6 +52,15 @@
 </header>
 
 <div class="mobile-nav" class:active={mobileNavActive}>
+  <a
+    href="/"
+    class="nav-item"
+    onclick={closeMobileNav}
+    style="--hover-color:var(--accent-color)"
+  >
+    <div class="status-indicator"></div>
+    <span>Home</span>
+  </a>
   {#each siteData.sections as section}
     <a
       href={section.path}
