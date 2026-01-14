@@ -15,7 +15,29 @@
 
 <Bio />
 
+<section class="projects-header">
+  <h2>Projects</h2>
+</section>
+
 {#each siteData.sections as section (section.id)}
   <SectionHeader {section} />
   <SectionGrid projects={section.projects} theme={section.theme} />
 {/each}
+
+<style>
+  .projects-header {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid var(--accent-color);
+    padding-left: 1.5rem;
+  }
+
+  .projects-header h2 {
+    font-family: var(--font-display);
+    font-size: 2.5rem;
+    color: var(--accent-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+</style>
