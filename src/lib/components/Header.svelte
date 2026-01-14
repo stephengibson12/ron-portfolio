@@ -93,7 +93,6 @@
     font-size: 1rem;
     color: var(--text-color);
     margin-top: 1rem;
-    white-space: nowrap;
   }
 
   nav ul {
@@ -111,9 +110,43 @@
   }
 
   .hamburger {
+    display: none;
     background: none;
     border: none;
     cursor: pointer;
     padding: 0;
+  }
+
+  /* Responsive styles */
+  @media (max-width: 950px) {
+    .hamburger {
+      display: flex;
+    }
+
+    nav {
+      display: none;
+    }
+
+    .tagline {
+      font-size: 0.85rem;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .header-left {
+      max-width: 70%;
+    }
+
+    .tagline {
+      font-size: 0.75rem;
+      white-space: normal;
+      line-height: 1.3;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .tagline {
+      font-size: 0.65rem;
+    }
   }
 </style>
