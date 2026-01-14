@@ -27,6 +27,12 @@ export interface Section {
   projects: Project[];
 }
 
+export interface SocialLinks {
+  email?: string;
+  github?: string;
+  linkedin?: string;
+}
+
 export interface Hero {
   title: string;
   description: string;
@@ -35,14 +41,20 @@ export interface Hero {
 export interface SiteData {
   title: string;
   hero: Hero;
+  social: SocialLinks;
   sections: Section[];
 }
 
 export const siteData: SiteData = {
   title: "Ronald Corona",
   hero: {
-    title: "Full Stack Interactive Web Developer",
-    description: "Software Developer. Skater. Digital Nomad.",
+    title: "Full Stack Developer",
+    description: "The answer is in the middle.",
+  },
+  social: {
+    email: "Ronaldmcorona@gmail.com",
+    github: "https://github.com/Jomopipi",
+    linkedin: "https://linkedin.com/in/ronaldcorona",
   },
   sections: [
     {
@@ -110,19 +122,19 @@ export const siteData: SiteData = {
           id: "lambda-calc-eval",
           title: "Lambda Calc Eval",
           path: "/academic/lambda-calc-eval",
-          description: "A visual evaluator for Lambda Calculus expressions.",
+          description: "A JavaScript interpreter for lambda calculus expressions.",
           image: "/images/lambda_calc_eval.png",
           action: "EVALUATE",
-          links: { demo: "#", repo: "#" },
+          links: { demo: "#", repo: "https://github.com/Jomopipi/lambdacalceval" },
         },
         {
           id: "coding-pro",
           title: "Coding Pro",
           path: "/academic/coding-pro",
-          description: "Advanced algorithms and data structures visualizer.",
+          description: "Web-based programming tutorials for beginners.",
           image: "/images/coding_pro.png",
           action: "COMPILE",
-          links: { demo: "#", repo: "#" },
+          links: { demo: "#", repo: "https://github.com/Jomopipi/codingpro" },
         },
       ],
     },
@@ -179,10 +191,10 @@ export const siteData: SiteData = {
           id: "nodemcu-car",
           title: "NodeMCU Car",
           path: "/electronics/nodemcu-car",
-          description: "WiFi-controlled RC car using NodeMCU.",
+          description: "Smartphone-controlled remote vehicle built with C++.",
           image: "/images/nodemcu_car.png",
           action: "DRIVE",
-          links: { demo: "#", repo: "#" },
+          links: { repo: "https://github.com/Jomopipi/nodemcu-wifi-car" },
         },
       ],
     },
