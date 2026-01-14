@@ -109,4 +109,54 @@
   .social-icons a:hover svg {
     transform: scale(1.1);
   }
+
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .bio-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+    }
+
+    .bio-details {
+      width: 100%;
+    }
+
+    .bio-text {
+      font-size: 1rem;
+    }
+
+    .bio-email {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .social-icons {
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 400px) {
+    h2 {
+      font-size: 1.6rem;
+    }
+
+    .avatar {
+      width: 100px;
+      height: 100px;
+    }
+
+    .bio-text {
+      font-size: 0.9rem;
+    }
+
+    .bio-email {
+      font-size: 0.85rem;
+    }
+  }
 </style>
