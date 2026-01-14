@@ -78,7 +78,7 @@
   .header-container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
   }
 
@@ -122,6 +122,10 @@
 
   /* Medium screens: vertical stacked nav */
   @media (max-width: 768px) {
+    .header-container {
+      align-items: flex-start;
+    }
+
     nav ul {
       flex-direction: column;
       align-items: flex-end;
