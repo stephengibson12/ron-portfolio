@@ -479,24 +479,36 @@ body::before {
 
 /* Responsive Breakpoints */
 @media (max-width: 950px) {
-  .hamburger {
-    display: flex;
-  }
-
-  nav ul {
-    display: none;
-  }
-
   .premium-logo {
     font-size: 1.6rem;
     padding: 0.4rem 0.8rem;
   }
 
-  .tagline {
-    font-size: 0.8rem !important;
+  header.main-header .container {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .section-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
   }
 
-  header.main-header .container {
+  .card h2 {
+    font-size: 1.8rem;
+  }
+
+  .card-content {
+    padding: 1rem;
+  }
+
+  .card-image {
+    height: 180px;
+  }
+
+  .container {
     padding: 0 1rem;
   }
 }
@@ -508,7 +520,11 @@ body::before {
     letter-spacing: 1px;
   }
 
-  .tagline {
-    font-size: 0.7rem !important;
+  .card h2 {
+    font-size: 1.5rem;
+  }
+
+  .card p {
+    font-size: 0.85rem;
   }
 }

@@ -25,4 +25,17 @@
     font-size: 2.5rem;
     margin-bottom: 2rem;
   }
+
+  @media (max-width: 600px) {
+    .page-title {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .page-title {
+      font-size: 1.6rem;
+    }
+  }
 </style>

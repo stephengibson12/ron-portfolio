@@ -40,4 +40,22 @@
     letter-spacing: 2px;
     margin: 0;
   }
+
+  @media (max-width: 600px) {
+    .projects-header {
+      margin-top: 3rem;
+      padding-left: 1rem;
+    }
+
+    .projects-header h2 {
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .projects-header h2 {
+      font-size: 1.6rem;
+    }
+  }
 </style>

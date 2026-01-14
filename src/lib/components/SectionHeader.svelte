@@ -41,4 +41,19 @@
     color: var(--dim-color);
     font-size: 0.9rem;
   }
+
+  @media (max-width: 600px) {
+    .section-title-block {
+      margin-top: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .section-title-block h2 {
+      font-size: 1.6rem;
+    }
+
+    .section-title-block p {
+      font-size: 0.8rem;
+    }
+  }
 </style>

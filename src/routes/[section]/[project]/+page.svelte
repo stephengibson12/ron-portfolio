@@ -83,6 +83,7 @@
   .action-buttons {
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
   }
 
   .action-buttons .hero-link {
@@ -92,5 +93,30 @@
 
   .action-buttons .hero-link.secondary {
     border-color: var(--dim-color);
+  }
+
+  @media (max-width: 600px) {
+    .project-details h3 {
+      font-size: 1.5rem;
+    }
+
+    .project-details p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .media-placeholder {
+      height: 250px;
+      font-size: 0.8rem;
+    }
+
+    .action-buttons {
+      flex-direction: column;
+    }
+
+    .action-buttons .hero-link {
+      text-align: center;
+      width: 100%;
+    }
   }
 </style>
