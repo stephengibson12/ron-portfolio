@@ -32,19 +32,6 @@
     <div class="media-placeholder">
       [ FULL WIDTH PROJECT MEDIA PLACEHOLDER ]
     </div>
-
-    <div class="action-buttons">
-      {#if data.project.links?.demo}
-        <a href={data.project.links.demo} class="hero-link">
-          LAUNCH PROJECT
-        </a>
-      {/if}
-      {#if data.project.links?.repo}
-        <a href={data.project.links.repo} class="hero-link secondary">
-          VIEW SOURCE
-        </a>
-      {/if}
-    </div>
   </div>
 </div>
 
@@ -77,22 +64,6 @@
     justify-content: center;
     color: #444;
     border: 1px solid var(--dim-color);
-    margin-bottom: 2rem;
-  }
-
-  .action-buttons {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-  }
-
-  .action-buttons .hero-link {
-    display: inline-block;
-    padding: 0.8rem 1.5rem;
-  }
-
-  .action-buttons .hero-link.secondary {
-    border-color: var(--dim-color);
   }
 
   @media (max-width: 600px) {
@@ -108,15 +79,6 @@
     .media-placeholder {
       height: 250px;
       font-size: 0.8rem;
-    }
-
-    .action-buttons {
-      flex-direction: column;
-    }
-
-    .action-buttons .hero-link {
-      text-align: center;
-      width: 100%;
     }
   }
 </style>

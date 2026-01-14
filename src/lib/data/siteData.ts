@@ -49,7 +49,7 @@ export const siteData: SiteData = {
   title: "Ronald Corona",
   hero: {
     title: "Full Stack Developer",
-    description: "The answer is in the middle.",
+    description: "Software Developer. Skater. Digital Nomad.",
   },
   social: {
     email: "Ronaldmcorona@gmail.com",
