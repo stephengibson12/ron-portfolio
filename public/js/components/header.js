@@ -22,7 +22,7 @@ window.renderHeader = () => {
   titleLink.href = "/";
 
   // Tagline
-  const tagline = h("div", "tagline", "Creative Coder. Skater. Digital Nomad.");
+  const tagline = h("div", "tagline", "Software Developer. Skater. Digital Nomad.");
   tagline.style.fontFamily = "var(--font-mono)";
   tagline.style.fontSize = "1rem";
   tagline.style.color = "var(--text-color)";

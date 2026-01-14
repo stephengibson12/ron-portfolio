@@ -2,7 +2,7 @@ window.siteData = {
   title: "Ronald Corona",
   hero: {
     title: "Full Stack Interactive Web Developer",
-    description: "Creative Coder. Skater. Digital Nomad.",
+    description: "Software Developer. Skater. Digital Nomad.",
   },
   sections: [
     {
