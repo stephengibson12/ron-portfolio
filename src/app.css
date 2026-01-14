@@ -373,11 +373,6 @@ footer {
   color: var(--dim-color);
 }
 
-/* Utility to hide things if JS fails or loading */
-.hidden {
-  display: none;
-}
-
 /* Glitch effect substitute - simple scanline */
 body::before {
   content: " ";
