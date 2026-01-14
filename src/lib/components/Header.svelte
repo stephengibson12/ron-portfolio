@@ -99,7 +99,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    gap: 0.15rem;
+    gap: 0;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -109,6 +109,7 @@
     text-transform: uppercase;
     font-size: 0.85rem;
     letter-spacing: 1px;
+    padding: 0.1rem 0;
   }
 
   .hamburger {
