@@ -6,7 +6,10 @@
 
 <svelte:head>
   <title>{data.section.title} | Ronald Corona</title>
-  <meta name="description" content={data.section.description} />
+  <meta name="description" content="{data.section.description} Explore Ronald Corona's {data.section.title.toLowerCase()} projects." />
+  <meta property="og:title" content="{data.section.title} Projects | Ronald Corona" />
+  <meta property="og:description" content="{data.section.description} Explore Ronald Corona's {data.section.title.toLowerCase()} projects." />
+  <meta property="og:image" content="https://ron-portfolio-3bb0b.web.app/images/cover.png" />
 </svelte:head>
 
 <div style="--section-header:{data.section.theme.header}; --section-title:{data.section.theme.title}">
