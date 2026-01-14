@@ -77,14 +77,16 @@
 <style>
   .header-container {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     width: 100%;
+    gap: 1.5rem;
   }
 
   .header-left {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 0.5rem;
   }
 
@@ -93,10 +95,13 @@
     font-size: 1rem;
     color: var(--text-color);
     margin-top: 1rem;
+    text-align: center;
   }
 
   nav ul {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 1rem;
     list-style: none;
     margin: 0;
@@ -118,7 +123,7 @@
   }
 
   /* Responsive styles */
-  @media (max-width: 950px) {
+  @media (max-width: 500px) {
     .hamburger {
       display: flex;
     }
@@ -127,20 +132,18 @@
       display: none;
     }
 
-    .tagline {
-      font-size: 0.85rem;
+    .header-container {
+      flex-direction: row;
+      justify-content: space-between;
     }
-  }
 
-  @media (max-width: 600px) {
     .header-left {
-      max-width: 70%;
+      align-items: flex-start;
     }
 
     .tagline {
       font-size: 0.75rem;
-      white-space: normal;
-      line-height: 1.3;
+      text-align: left;
     }
   }
 
