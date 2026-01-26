@@ -10,7 +10,7 @@
   <meta name="description" content="Portfolio of Ronald Corona - Full stack developer crafting music apps, games, electronics projects, and data analytics tools." />
   <meta property="og:title" content="{siteData.title} | Software Developer" />
   <meta property="og:description" content="Full stack developer crafting music apps, games, electronics projects, and data analytics tools." />
-  <meta property="og:image" content="https://ron-portfolio-3bb0b.web.app/images/cover.png?v=2" />
+  <meta property="og:image" content="https://ron-portfolio-3bb0b.web.app/images/cover.webp?v=2" />
 </svelte:head>
 
 <Bio />

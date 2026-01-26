@@ -9,7 +9,7 @@
 
   <div class="bio-content">
     <img
-      src="/images/headshot.png"
+      src="/images/headshot.webp"
       alt="About {siteData.title}"
       class="avatar"
     />
